@@ -1,0 +1,8 @@
+Sure, here’s the updated text with more phone numbers and email addresses:
+
+“Hello, my name is John Doe. I’m a software engineer specializing in Python and machine learning. If you have any questions 
+or need assistance with a project, feel free to contact me. 
+You can reach me at any of my phone numbers:
++919900889977, +919811223344, or +919722334455. Alternatively, 
+you can send me an email at any of the following addresses: sample@gmail.in,
+johndoe@example.com, or pythondeveloper@xyz.com. I look forward to hearing from you!”

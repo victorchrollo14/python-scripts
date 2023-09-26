@@ -2,19 +2,18 @@ class Pali:
     def __init__(self):
         self.isPali = False
 
-    def chkPalindrome(self, value):
-        if str(value) == str(value)[::-1]:
+    def chkPalindrome(self, strVal):
+        if (strVal == strVal[::-1]):
             self.isPali = True
-        else:
-            self.isPali = False
 
         return self.isPali
 
 
 class PaliInt(Pali):
-    def chkPalindrome(self, val):
-        str_val = str(val)
-        if str_val == str_val[::-1]:
+    def chkPalindrome(self, intVal):
+        intVal = str(intVal)
+        rev = intVal[::-1]
+        if (intVal == rev):
             self.isPali = True
         else:
             self.isPali = False
@@ -22,20 +21,17 @@ class PaliInt(Pali):
         return self.isPali
 
 
-st = input("Enter a string : ")
-stObj = Pali()
-
-if stObj.chkPalindrome(st):
-    print("Given string is a Palindrome")
+input1 = input("Enter a string: ")
+strObj = Pali()
+if (strObj.chkPalindrome(input1)):
+    print(f"{input1} is a palindrome")
 else:
-    print("Given string is not a Palindrome")
+    print(f"{input1} is not a palindrome")
 
-val = int(input("Enter an integer : "))
+input2 = int(input("Enter an integer: "))
 intObj = PaliInt()
 
-if intObj.chkPalindrome(val):
-    print("Given integer is a Palindrome")
+if (intObj.chkPalindrome(input2)):
+    print(f"{input2} is a palindrome")
 else:
-    print("Given integer is not a Palindrome")
-
-
+    print(f"{input2} is not a palindrome")
